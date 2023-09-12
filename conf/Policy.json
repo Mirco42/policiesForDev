@@ -1,0 +1,84 @@
+{
+    "policy": [
+        {
+            "guid": "0067fb0e-c2db-4223-82ae-1549265e431b",
+            "policyDetail": {
+                "folderId": "845f1a7ce599b6352e9a63cea6044307",
+                "guid": "0067fb0e-c2db-4223-82ae-1549265e431b",
+                "id": "845f1a7ce599b6352e9a63cea6044349",
+                "name": "aaa",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "policiesForDev\/aaa.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "845f1a7ce599b6352e9a63cea6044349"
+        },
+        {
+            "guid": "03d54345-fb49-48e5-9331-8f5bd15279b2",
+            "policyDetail": {
+                "folderId": "845f1a7ce599b6352e9a63cea6044307",
+                "guid": "03d54345-fb49-48e5-9331-8f5bd15279b2",
+                "id": "845f1a7ce599b6352e9a63cea604435c",
+                "name": "bbb",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "policiesForDev\/bbb.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "845f1a7ce599b6352e9a63cea604435c"
+        }
+    ]
+}
